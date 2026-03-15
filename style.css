@@ -1,0 +1,74 @@
+body{
+	background-color:#FDFBF7;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+
+h1{
+	text-align: center;
+	font-family:"Monsieur La Doulaise";
+	font-size:80px;
+	color:#A4031F;
+	margin:10px;
+	animation: pulse 2s infinite
+
+}
+
+h2{
+	text-align:center;
+	color:#4557a1;
+	font-family: "pollen-web", serif;
+
+}
+
+h3{
+	font-family:"Monsieur La Doulaise";
+	color:#4557a1;
+	font-size:40px;
+	text-align: center;
+}
+
+p{
+	color:#4557a1;
+
+}
+
+
+.navbar{
+	position:sticky;
+	display:flex;
+	overflow:hidden;
+	background-color:lavenderblush;
+	font-family: "pollen-web", serif;
+	padding:10px;
+	align-items:center;
+	justify-content: center;
+	line-height: 40px;
+	height:20px;
+	margin-bottom:30px;
+}
+
+.navbar a{
+	color:#7E7F9A;
+	font-size: 20px;
+	padding:12px;
+	text-decoration:none;
+}
+
+.navbar a:hover{
+	background-color:#011638;
+	color:white;
+}
+
+
+footer{
+	font-family: "lust-didone-fine";
+	font-size:10px;
+	color:#A4031F;
+	text-align:center;
+  bottom: 0;
+  width: 100%;
+  height: 60px
+
+}
